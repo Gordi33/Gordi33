@@ -1,5 +1,6 @@
-- 👋 Hi, I’m @Gordi33
-- 👀 I’m interested in maths, coding & 
+👋 Hi, I’m @Gordi33
+- 👀 I’m interested in maths, coding, 
+statistics, data science & numbers
 - 🌱 I’m currently learning about life
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me check out linkedIn Gorden Pfitzmann
