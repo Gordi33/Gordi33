@@ -1,0 +1,131 @@
+	git config --list
+
+	git status
+	
+	git add . 
+	git add abc.txt
+
+	git commit abc.txt -m"myMessage"
+
+	git log --oneline --graph
+
+overjump add
+	git commit -am"express commited"
+
+reverse an add on the Stagging
+	git reset head abc.txt
+change also the file in the cwd to the lastest rep.one
+	git checkout -- abc.txt
+
+change file-rename
+	git mv abc.txt def.txt
+	NOTE!! NEEDS TO BE COMMITED
+
+git log --oneline
+
+delete file
+	git rm abc.txt
+	NOTE!! NEEDS TO BE COMMITED
+
+adjust local changes in Git
+	git add -u
+	updates deleted files 
+	NOTE!! NEEDS TO BE COMMITED
+
+	git add -u
+	adjusts modifications  
+	NOTE!! NEEDS TO BE COMMITED
+
+--------------------------------------------------------------
+
+Create new branch 
+	git checkout -b BRANCH_NAME
+
+Switch branch to MyBranch
+	git checkout MyBranch
+
+Merge branchA into BranchB 
+	git merge branchA
+		NOTE: checkout branchB, this is where we are.
+
+Push local created branch to origin
+	git push -u origin BRANCH_NAME
+
+delete branch
+	local
+		git branch -d BRANCH_NAME
+	remote
+		git push origin :BRANCH_NAME
+--------------------------------------------------------------
+
+Add Tag
+	git tag -a v1.0 -m"release 1.0"
+	
+Show Tag
+	git show v.1.0	
+
+--------------------------------------------------------------
+Reset	
+	git reset commitID --soft
+		NOTE: keep working directory as before	
+
+	
+	git reset commitID --hard
+		NOTE: sets also working directory as commitID
+	
+	git reflog
+		Lists all commits ever
+
+--------------------------------------------------------------
+	
+Link code to an existing remote repository or create a new remote repository
+	git remote add origin https://github.com/Gordi33/Whittaker-Henderson-Smoothing.git
+
+View links
+	git remote -v
+
+Push code to the remote repository	
+	git push -u origin master --tags
+	
+--------------------------------------------------------------
+
+SSH key creation
+	ssh-keygen -t rsa -C "myEmail"
+
+	
+SSH login
+	ssh -T git@github.com
+
+--------------------------------------------------------------
+
+fetch
+	checks weather there are changes on the remotely
+	
+pull
+	fetch + merge = pull
+	picks up all from remotely and merges it
+
+--------------------------------------------------------------
+
+Update remote URL
+	git remote set-url origin https://github.com/Gordi33/PROJECT.git
+	
+Show remote info
+	git remote show origin
+
+	modifications
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
